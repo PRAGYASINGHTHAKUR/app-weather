@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  # React + Vite...
 
 
@@ -35,3 +36,6 @@ Note on API key: Store your API keys in environment variables. This way, the key
 
 
 
+=======
+# weather_AppForecast
+>>>>>>> b05e40c74a8dd1d6094cf7c0e27e478ecbb74e6b
