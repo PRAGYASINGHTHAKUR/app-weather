@@ -7,7 +7,7 @@ import getFormattedWeatherData from "./services/weatherService";
 import { useEffect, useState } from "react";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
+// import { HashRouter } from "react-router-dom";
 
 const App = () => {
 
@@ -45,7 +45,8 @@ const App = () => {
   
  }
 
-  return (
+  return ( 
+    
 
     <div className={ `mx-auto max-w-screen-lg mt-4 py-5 px-32 bg-gradient-to-br 
     shadow-xl shadow-gray-400 ${formatBackground()}` }> 
@@ -64,6 +65,7 @@ const App = () => {
       <ToastContainer autoClose ={2500} hideProgressBar={true} theme="colored"/>
 
     </div>
+    
   )
 }
 
