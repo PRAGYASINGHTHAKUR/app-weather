@@ -1,6 +1,6 @@
 {
   
-  "homepage": "https://github.com/PRAGYASINGHTHAKUR/app-weather",
+  "homepage": "https://PRAGYASINGHTHAKUR.github.io/app-weather",
   
   "name": "app-weather",
   
@@ -9,7 +9,7 @@
   "version": "0.0.0",
   
   "type": "module",
-  
+
   "author": "Pragya Singh",
   
   
@@ -21,7 +21,7 @@
     
   "build": "vite build",
   "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
+  "deploy": "gh-pages -d dist",
   
     
   "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
