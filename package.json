@@ -1,17 +1,21 @@
 {
   
-  "homepage": "https://PRAGYASINGHTHAKUR.github.io/app-weather",
+  
   
   "name": "app-weather",
   
   "private": true,
   
-  "version": "0.0.0",
+  "version": "0.1.0",
   
   "type": "module",
 
   "author": "Pragya Singh",
+
+  "homepage": "./",
   
+
+
   
   "scripts": {
   
